@@ -1,4 +1,4 @@
-name: CI
+name: Aprendiendo Github Actions
 on: [push]
 jobs:
   build:
