@@ -1,7 +1,7 @@
 name: Aprendiendo Github Actions
 on: [push]
 jobs:
-  build:
+  mi-build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
