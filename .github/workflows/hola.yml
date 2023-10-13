@@ -1,5 +1,8 @@
 name: Aprendiendo Github Actions
-on: [push]
+on:
+  push:
+    branches:
+      - 'aprendiendo-github-actions'
 jobs:
   mi-build:
     runs-on: ubuntu-latest
